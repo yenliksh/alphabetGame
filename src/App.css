@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.btn {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+.btn-letter {
+  background-color: #60bed8;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  width: 55px;
+  height: 55px;
+  border-radius: 5px;
+}
+
+.letters {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
+  margin: 0 auto;
+  width: fit-content;
+}
